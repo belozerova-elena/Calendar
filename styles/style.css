@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 100vh;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  color: #222831;
+  background-color: #00adb5;
+}
+
+.calendar {
+  width: 500px;
+  padding: 30px;
+  background-color: #eeeeee;
+  border-radius: 20px;
+}
+
+.calendar__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 30px;
+}
+
+.calendar__nav-btn {
+  padding: 10px 20px;
+  font-size: 14px;
+  color: #393e46;
+  background-color: #00adb5;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.calendar__nav-btn:hover {
+  color: #eeeeee;
+}
+
+.calendar__nav-date {
+  font-size: 20px;
+}
+
+.calendar__table {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.calendar__table-thead {
+  font-weight: bold;
+}
+
+.calendar__table-td {
+  padding: 16px 0;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */

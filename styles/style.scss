@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+$openSans: 'Open Sans', sans-serif;
+// COLORS 
+$white: #eeeeee;
+$blue: #00adb5;
+$dark: #393e46;
+$black:#222831;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: $openSans;
+  font-size: 18px;
+  color: $black;
+  background-color: $blue;
+}
+
+.calendar {
+  width: 500px;
+  padding: 30px;
+  background-color: #eeeeee;
+  border-radius: 20px;
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+  }
+  &__nav-btn {
+    padding: 10px 20px;
+    font-size: 14px;
+    color: $dark;
+    background-color: #00adb5;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s;
+    &:hover {
+      color: $white;
+    }
+  }
+  &__nav-date {
+    font-size: 20px;
+  }
+  &__table {
+    width: 100%;
+    margin: 0 auto;
+  }
+  &__table-thead {
+    font-weight: bold;
+  }
+  &__table-td {
+    padding: 16px 0;
+    text-align: center;  
+  }
+}
